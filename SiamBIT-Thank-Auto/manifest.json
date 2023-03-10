@@ -1,9 +1,8 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "SiamBIT - Thank Auto",
-  "short_name": "SiamBIT - Thank Auto",
-  "description": "This extension use to automate clicks thank button on \"details\" page at SiamBIT",
-  "version": "1.0",
+  "description": "This browser extension is designed to automatically click on the \"thank\" image or button with the title \"กดขอบคุณที่นี่\" on the details page of the SiamBIT website.",
+  "version": "1.0.1",
   "author": "Chanwit Settavongsin",
   "content_scripts": [
   {
@@ -12,14 +11,13 @@
     "run_at": "document_end"
   }
  ],
-  "permissions": ["activeTab"],
   "icons": {
     "16": "icon16.png",
     "32": "icon32.png",
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": {
       "16": "icon16.png",
       "32": "icon32.png",
