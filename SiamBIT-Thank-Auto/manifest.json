@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "SiamBIT - Thank Auto",
   "description": "Auto click on the \"thank\" image or button with the title \"กดขอบคุณที่นี่\" on the details page of the SiamBIT website.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Chanwit Settavongsin",
   "content_scripts": [
   {
